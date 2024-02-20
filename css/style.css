@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+}
+
+body {
+  position: relative;
+}
+
+tbody tr:hover {
+  background-color: #c2d5dd;
+  cursor: pointer;
+}
+
+.map {
+  width: auto;
+  height: auto;
+}
+
+#map:hover {
+  cursor: crosshair;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+.padding-1vw {
+  padding: 1vw;
+}
+
+.p2vw {
+  padding: 2vw;
+}
+
+.w-60vw {
+  width: 60vw;
+}
+
+.w-40vw {
+  width: 40vw;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+datalist {
+  cursor: pointer;
+}
+
+.form-input::placeholder {
+  color: rgb(70, 70, 70);
+}
+
+.autocomplete-items {
+  color: white;
+  font-weight: bold;
+  overflow-y: scroll;
+  min-height: 0;
+  max-height: 14.5rem;
+}
+
+.autocomplete-items div {
+  border-radius: 3px;
+  padding: 5px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.autocomplete-items div:hover {
+  background-color: rgb(228, 98, 137);
+  cursor: pointer;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-card {
+  flex-direction: row;
+  justify-content: start;
+  align-content: start;
+  align-items: start;
+
+  display: none; 
+  width: 28vw; 
+  padding: 0.5rem; 
+  margin-top: 20px;
+  margin-right: 1vw; 
+  background-color: #6A29B7;
+  box-shadow: 0 .25rem 1rem rgba(36, 27, 32, 0.15);
+  border-radius: 4px;
+}
+
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  align-content: start;
+
+  margin-left: 1rem;
+}
+
+.chosen-movie-title {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 0.8;
+  color: #fff;
+}
+
+.chosen-movie-year {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.chosen-movie-director {
+  margin-top: 1rem;
+  
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.director-name {
+  font-weight: bold;
+  color: #ffe34f;
+}
+
+.app-title {
+  color: white; 
+  margin-left: 1vw; 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  font-weight: light; 
+  font-size: 3rem;
+}
+
+#distanceTextContainer {
+  display: none;
+}
+
+.distance-text {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.distance-highlight {
+  color: #753CF0;
+}
+
+.screenshot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.screenshot-img {
+  width: 70%;
+}
